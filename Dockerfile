@@ -7,4 +7,6 @@ WORKDIR /usr/src/app
 
 COPY . .
 
+RUN find .
+
 CMD [ "python", "./app.py" ]
