@@ -10,3 +10,5 @@ COPY . .
 RUN find .
 
 CMD [ "python", "./app.py" ]
+
+EXPOSE 5000
